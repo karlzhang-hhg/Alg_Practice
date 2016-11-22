@@ -25,6 +25,7 @@ class Node{
 
 class TraverseTree{
     //The most simplest version of traverse a binary tree
+    //Use recursion to achieve stack
     private Deque<Node> stack = new LinkedList<Node>();
     public void preRoot(Node root){
         if (root == null) return;
